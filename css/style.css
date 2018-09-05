@@ -202,6 +202,8 @@ h3
 	display: grid;
 	grid-template-columns: 20px 3fr 20px 80px;
 	grid-auto-rows:50px;
+	padding-left:15px;
+	padding-right: 15px;
 }
 
 .topstripicons > div
@@ -438,6 +440,7 @@ grid-auto-rows:auto;
 	display: grid;
 	grid-template-columns: 40px 1fr;
 	grid-auto-rows:minmax(60px, auto);
+	padding: 0 15px;
 }
 
 .ground-content > div 
@@ -476,6 +479,7 @@ grid-auto-rows:auto;
 {
 	background: #fff;
 	border-bottom:1px solid rgba(0,0,0,0.2);
+	padding: 0 15px;
 	
 }
 
@@ -493,7 +497,7 @@ grid-auto-rows:auto;
 .matchodd-details
 {
 
-	margin: 1em auto;
+	
 	background: #fff;
 	
 
@@ -575,6 +579,34 @@ background: #63BAF2;
 .pinkbg{
 	background: #FF9EB7;
 }
+
+
+
+.light-blue {
+	background-color: #D4E8F5;
+}
+
+.medium-blue {
+	background-color: #B2D5ED;
+}
+
+.dark-blue {
+	background-color: #63BAF2;
+}
+
+.light-pink {
+	background-color: #F9E4EA;
+}
+
+.medium-pink {
+	background-color: #F4D0D8;
+}
+
+.dark-pink {
+	background-color: #FF9EB7;
+}
+
+
 
 .matchodd-details-row
 {
@@ -849,7 +881,7 @@ text-align: center;
  .current-bets
  {
 	 background: #fff;
-	 margin:20px 0;
+	
 
  }
 
@@ -888,7 +920,7 @@ grid-template-columns: 1fr;
  .current-bets-row > div > div h4
  {
 	 font-weight: bold;
-	 font-size: 1rem;
+	 font-size: 0.9rem;
 	 font-family: "roboto condensed";
 	 text-align: left;
 	 line-height: 1.5rem;
@@ -917,3 +949,8 @@ grid-template-columns: 1fr;
 
 
 
+.hidden-div
+{
+	display: none !important;
+	
+}

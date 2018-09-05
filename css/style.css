@@ -1,0 +1,919 @@
+html,
+body, h6, h2, h4, h5, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+.pageimg {
+    background: #113E2B url(../images/header-img.png) no-repeat center top;
+    ;
+    background-size: 100% auto;
+
+}
+
+.login-container, .form-container-new {
+    background: #113e2b;
+    
+    background: -moz-linear-gradient(top, #113e2b 0%, #225731 100%);
+    
+    background: -webkit-linear-gradient(top, #113e2b 0%, #225731 100%);
+    
+    background: linear-gradient(to bottom, #113e2b 0%, #225731 100%);
+    
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#113e2b', endColorstr='#225731', GradientType=0);
+    
+}
+
+
+.logo {
+   display: grid;
+   grid-template-columns:1fr;
+   grid-auto-rows:324px;
+   
+}
+
+.logo div {
+	
+	justify-self: center;
+	align-self: center;
+	
+	
+}
+
+
+
+
+.form-width
+{
+	
+	
+}
+
+
+.input-group input, .input-group input:focus
+{
+	background: transparent;
+	border: none;
+}
+
+
+.input-group 
+{
+	background: #fff;
+	display: grid;
+	grid-template-columns: 25px auto;
+	border-radius: 5px;
+	
+}
+
+.input-group  .fa{ color: #15442D; margin-left:8px;}
+
+.input-group > div:nth-child(1)
+{
+	align-self: center;
+	justify-content: center;
+}
+
+
+.form-width form > div:nth-child(3) .input-group
+{
+	grid-template-columns: auto 80px ;
+	background: #fff;
+}
+
+.form-width form > div:nth-child(3) .input-group > div:nth-child(2)
+{
+	justify-self:center;
+	align-self: center;
+	
+}
+
+
+.home-signup > div:nth-child(1)
+{
+	border-bottom: 1px solid rgba(132, 163, 65, 0.2);
+	padding-bottom:20px;
+}
+
+.home-signup > div:nth-child(2)
+{
+	padding-top:20px;
+}
+
+.home-signup > div:nth-child(2) h5
+{
+	padding-top:20px;
+}
+
+
+.btn-primary
+{
+	background:#63883E;
+	border:none;
+}
+
+
+.btn-primary:hover
+{
+	background: #2A6334;
+}
+
+
+
+.btn-danger
+{
+	background:#D01D2F;
+	border:none;
+}
+
+
+.btn-danger:hover
+{
+	background: #B91828;
+}
+
+
+h3
+{
+	text-align:center;
+	 color:#84A341;
+	 font-size: 2rem;
+	 font-weight: bold;
+	 line-height: 3rem;
+	}
+
+
+.smalllinks
+{
+	color: #ABC96B;
+	font-size: 1rem;
+	text-align: center;
+	padding-bottom:20px;
+	padding-top:20px;
+
+}
+
+.smalllinks a
+{
+	color: #ABC96B;
+}
+
+
+.whatsapp
+{
+	padding: 40px 0px 0 0;
+	text-align: center;
+}
+
+.whatsapp p
+{
+	font-weight: bold;
+	color: #ABC96B;
+	padding-top:20px;
+}
+
+
+
+
+
+/* css for all sports page */
+
+
+
+
+.allsports
+{
+	background: #EEEEEE;
+	width: 100%; 
+	min-height: 640px;
+	position:relative;
+}
+
+
+.topstrip
+{
+	background: #225731;
+}
+
+
+.topstripicons
+{
+	display: grid;
+	grid-template-columns: 20px 3fr 20px 80px;
+	grid-auto-rows:50px;
+}
+
+.topstripicons > div
+{
+	
+	justify-self: center;
+	align-self: center;
+}
+
+.topstripicons h1
+{
+	margin:0;
+	padding: 0;
+	color: #fff;
+	text-align: left;
+	font-size: 1.1rem;
+	font-family:"roboto condensed";
+}
+
+.topstripicons > div:nth-child(2)
+{
+	justify-self: start;
+	align-self: center;
+	padding-left:20px;
+}
+
+
+
+
+.balance
+{
+	background: #63883E;
+	display: inline-block;
+	padding: 2px 10px;
+	border-radius: 4px;
+	margin-top:0px;
+	margin-left:5px;
+}
+
+.balance h6
+{
+	color: #fff;
+	text-align: center;
+	font-size: 0.7rem;
+	font-weight: bold;
+}
+
+.balance p
+{
+	color: #fff;
+	text-align: center;
+	font-size: 0.7rem;
+	
+}
+
+.welcome-user
+{
+	display: grid;
+	grid-template-columns: 10px 6fr 10px;
+	grid-template-rows: 60px;
+	background: #fff;
+	border-radius: 0 0 10px 10px;
+	border: 1px solid #DBDBDB;
+	-webkit-box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.1);
+	box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.1);
+}
+
+
+.welcome-user > div
+{
+	grid-column: 2/3;
+	align-self: center;
+	justify-self: start;
+	font-family: "roboto condensed";
+	font-weight: bold;
+}
+
+
+.welcome-user > div  h6
+{
+color: #000;
+}
+
+
+.welcome-user > div  h6 span
+{
+	color: #D01D2F;
+}
+
+.sportsboxescontainer > div 
+{
+	margin:1.5em 0;
+
+}
+
+.sport
+{
+	border-radius: 10px;
+	background: #fff;
+	-webkit-box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.1);
+	box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.1);
+
+	
+}
+
+.sporttitle
+{
+background: #63883E;
+padding: 10px 10px;
+border-radius: 10px 10px 0 0;
+color: #fff;
+font-family: "roboto condensed";
+display: grid;
+grid-template-columns: 1fr;
+grid-auto-rows:auto;
+}
+
+.sporttitle > div 
+{
+	align-self:center;
+	justify-self: start;
+}
+
+.sporttitle > div > h6 > span
+{
+	display: inline-block;
+	*display:inline;
+	margin-right:10px;
+}
+
+
+
+.sportmatches 
+{
+
+	display: grid;
+	grid-template-columns: 1fr 30px;
+	grid-template-rows: minmax(45px, auto);
+	border-bottom:1px solid #DADADA;
+	cursor: pointer;
+}
+
+
+
+.sportmatches > div 
+{
+	display: grid;
+	grid-template-columns: 1fr;
+	
+}
+
+
+.sportmatches > div > div
+{
+	align-self: center;
+	justify-self: start;	
+	
+}
+
+
+.sportmatches > div > div:first-child h6
+{
+	padding-left:10px;
+	font-family: "roboto condensed";
+	font-size: 0.9rem;
+	font-weight: bold;
+	
+}
+
+
+.bottom-tabs
+{
+	background: #2A6334;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-auto-rows: minmax(65px, auto);
+
+}
+
+.bottom-tabs > div 
+{
+	display: grid;
+	grid-template-columns: 1fr;
+	
+	cursor:pointer;
+}
+
+
+.bottom-tabs > div:not(:last-child)
+{
+	border-right: 1px solid rgba(128, 173, 83, 0.3);
+}
+
+
+.bottom-tabs > div:hover
+{
+ background: #0C3323;
+}
+
+.bottom-tabs > div > div img
+{
+	display: inline-block;
+}
+
+.bottom-tabs > div > div
+{	text-align: center;
+	justify-self: center;
+	align-self: center;
+	
+}
+
+
+.bottom-tabs > div > div h6
+{
+	font-family: "roboto condensed";
+	color: #fff;
+	font-size: 0.7rem;
+	line-height: 1.5rem;
+}
+
+
+.groundbg
+{
+	background: url(../images/ground-bg.jpg) no-repeat center center;
+	width: 100%;
+	background-size: cover;
+	
+}
+
+.ground-content
+{
+	display: grid;
+	grid-template-columns: 40px 1fr;
+	grid-auto-rows:minmax(60px, auto);
+}
+
+.ground-content > div 
+{
+	display: grid;
+	grid-template-columns: 1fr;
+
+}
+
+.ground-content > div > div
+{
+	align-self: center;
+	justify-content: start;
+	
+}
+
+.ground-content > div > div h6
+{
+	color:#fff;
+	font-size: 1rem;
+	font-weight: bold;
+
+	
+}
+
+
+.ground-content > div > div p
+{
+	font-family: "roboto";
+	font-size:0.9rem;
+	color: #fff;
+	text-align: left;
+}
+
+.match-odds-title
+{
+	background: #fff;
+	border-bottom:1px solid rgba(0,0,0,0.2);
+	
+}
+
+
+.match-odds-title h6
+{
+	padding:0.8em 0;
+	font-family: "roboto condensed";
+	font-weight: bold;
+	color: #205430;
+	
+}
+
+
+.matchodd-details
+{
+
+	margin: 1em auto;
+	background: #fff;
+	
+
+}
+
+
+.matchodd-details-row-title
+{
+	display: grid;
+	grid-template-columns: 3fr 1fr 1fr;
+	border-bottom: 1px solid #fff;
+	
+}
+
+.suspended  .suspend
+{
+ grid-column: 2/4;
+ background: #C8C8C8;
+}
+
+
+.matchodd-details-row-title > div
+{
+	background: #2A6334;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-auto-rows:minmax(2.5em, auto);
+	padding: 0 10px;
+}
+
+
+.matchodd-details-row-title > div > div:first-child
+{
+	justify-self: start;
+	align-self: center;
+}
+
+
+.matchodd-details-row-title > div:not(:first-child) > div
+{
+	align-self: center;
+	justify-self: center;
+	
+
+}
+
+
+.matchodd-details-row-title > div  h6
+{
+	color: #fff;
+	font-family: "roboto condensed";
+	font-weight: bold;
+	font-size: 0.9rem;
+}
+
+.matchodd-details-row-title > div  p
+{
+	color: #fff;
+	font-family: "roboto condensed";
+	font-weight: bold;
+}
+
+.matchodd-details-row-title > div:nth-child(3)
+{
+	background: #FF9EB7;
+}
+
+
+.matchodd-details-row-title > div:nth-child(2)
+{
+	background: #63BAF2;
+}
+
+.bluebg{
+background: #63BAF2;
+}
+
+
+.pinkbg{
+	background: #FF9EB7;
+}
+
+.matchodd-details-row
+{
+	border-bottom:1px solid rgba(0,0,0,0.1);
+	display: grid;
+	grid-template-columns: 3fr 1fr 1fr;
+	grid-auto-rows:minmax(50px, auto);
+}
+
+
+.matchodd-details-row > div
+{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-auto-columns: 1fr;
+}
+
+
+.matchodd-details-row > div > div
+{
+	justify-self: center;
+	align-self: center;
+	text-align: center;
+}
+
+.matchodd-details-row > div:first-child > div
+
+{
+	justify-self: start;
+	align-self: center;
+	padding-left:10px;
+	
+}
+
+
+.matchodd-details-row > div > div h6
+{
+	font-size: 0.9rem;
+	font-family: "roboto condensed";
+	font-weight: bold;
+	
+}
+
+
+.matchodd-details-row > div > div p
+{
+	font-family: "roboto condensed";
+	font-size: 0.8rem;
+	font-weight: bold;
+	
+}
+
+
+.matchodd-details-row > div:first-child > div p
+{
+	font-family: "roboto condensed";
+	font-size: 0.8rem;
+	font-weight: bold;
+	text-align: left;
+	
+}
+
+
+
+.green-text
+{
+	color: #648F07;
+}
+
+
+.red-text
+{
+	color: #D01D2F;
+}
+
+.placebet
+{
+	
+	background:#2a6334;
+}
+.placebet-title
+{
+	color: #fff;
+	font-size: 0.8rem;
+	line-height: 1.5rem;
+	font-family: "roboto condensed";
+	padding: 10px;
+}
+
+.calculator-design
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-auto-rows:minmax(50px, auto);
+	row-gap: 10px;
+	column-gap: 10px;
+	
+	
+
+}
+
+.calculator-design > div
+{
+	
+	
+}
+
+
+
+.digits-col
+{
+	grid-column: 1/3;
+}
+
+.points-col, .cancel-button
+{
+	margin-left:10px;
+	border-radius: 2px;
+}
+
+
+.price-col, .placebet-button
+{
+	margin-right:10px;
+	border-radius: 2px;
+}
+
+.points-content
+{
+	background: #fff;
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	grid-auto-rows: minmax(50px, auto);
+	
+}
+
+.points-content > div
+{
+	
+	display: grid;
+	grid-template-columns: 1fr;
+
+}
+
+
+.points-content > div:not(:nth-child(2))
+
+{
+	background: #E7E7E7;
+	cursor: pointer !important;
+}
+
+.points-content > div > div
+{
+	align-self: center;
+	justify-self: center;
+}
+
+
+.points-content > div > div img
+{
+	width: 14px;
+}
+
+.no-bg
+{
+	background: transparent !important;
+	border: none !important;
+}
+
+.calculator-design input[type="text"]
+{
+	font-family: "roboto condensed";
+	font-weight: bold;
+	font-size: 0.9rem;
+	color: black;
+	text-align: center;
+}
+
+.calculator-design input[type="text"]:focus
+{
+	box-shadow: none;
+	
+}
+
+.cancel-button
+{
+	background:#63883E;
+	display: grid;
+	grid-template-columns: 1fr; 
+}
+
+.cancel-button > div
+{
+	align-self: center;
+	justify-self: center;
+}
+
+
+.placebet-button
+{
+	background:#D01D2F;
+	display: grid;
+	grid-template-columns: 1fr; 
+}
+
+.placebet-button > div
+{
+	align-self: center;
+	justify-self: center;
+}
+
+.cancel-button > div h6,  .placebet-button > div h6
+ {
+color: #fff;
+font-family: "roboto condensed";
+font-weight: bold;
+text-align: center;
+
+ }
+
+ .cancel-button > div p,  .placebet-button > div p
+ {
+	 color:#fff;
+	 font-size:0.8rem;
+	 text-align:center;
+ }
+
+
+ .digits-col
+ {
+	 background:#63883E;
+	 padding: 10px;
+	 display: grid;
+	 grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	 grid-auto-rows: minmax(30px, auto);
+	 grid-gap:5px;
+
+ }
+
+
+ .digits-col > div
+ {
+	 
+	 display: grid;
+	 grid-template-columns: 1fr;
+	 background: #fff;
+	 border-radius: 2px;
+	 
+ }
+
+ .digits-col > div:last-child
+ {
+	 grid-column: 7/8;
+	 grid-row:1/4;
+ }
+
+ .digits-col > div > div
+ {
+	 justify-self: center;
+	 align-self: center;
+ }
+
+
+ .digits-col > div > div h6
+ {
+	color: #000;
+	 font-size: 0.8rem;
+ }
+
+
+ .current-bets
+ {
+	 background: #fff;
+	 margin:20px 0;
+
+ }
+
+ .current-bets-row
+ {
+	 display: grid;
+	 grid-template-columns: 10px auto;
+	 grid-auto-rows:minmax(95px, auto);
+	 border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+
+ }
+
+
+ .current-bets-row > div  
+ {
+display: grid;
+grid-template-columns: 1fr;
+
+
+ }
+
+
+ .current-bets-row > div:last-child div
+ {
+	 padding-left:10px;
+ }
+
+
+ .current-bets-row > div > div 
+ {
+	 justify-self: start;
+	 align-self: center;
+
+ }
+
+ .current-bets-row > div > div h4
+ {
+	 font-weight: bold;
+	 font-size: 1rem;
+	 font-family: "roboto condensed";
+	 text-align: left;
+	 line-height: 1.5rem;
+	 color: #205430;
+	 
+ }
+
+
+ .current-bets-row > div > div h6
+ {
+	font-weight: bold;
+	font-size: 0.8rem;	
+	font-family: "roboto condensed";
+	text-align: left;
+ }
+
+
+ .current-bets-row > div > div p
+ {
+	
+	font-size: 0.8rem;
+	font-family: "roboto condensed";
+	text-align: left;
+	line-height: 1rem;
+ }
+
+
+
